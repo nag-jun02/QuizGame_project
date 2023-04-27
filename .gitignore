@@ -47,7 +47,7 @@ ExportedObj/
 *.opendb
 *.VC.db
 
-# Ignore TextMeshPro filesq
+# Ignore TextMeshPro files
 Assets/TextMesh Pro/
 
 # Unity3D generated meta files
