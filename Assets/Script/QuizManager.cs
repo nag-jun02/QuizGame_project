@@ -28,23 +28,26 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < options.Length; i++)
         {
-            options[i].GetComponent<AnswerScript>().isCorrect = false;
+            //options[i].GetComponent<AnswerScript>().isCorrect = false;
+
             //テキスト一つ一つに割り当てる。
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QandA[currentQuestion].Answers[i];
 
-            if (QandA[currentQuestion].CorrectAnswer == i + 1)
+            if (QandA[currentQuestion].CorrectAnswer == i )
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
             }
         }
     }
 
+
     void GneraleQuestion()
     {
         if (QandA.Count > 0)
         {
             //0からリストにある質問の数
-            currentQuestion = Random.Range(0, QandA.Count);
+            //currentQuestion = Random.Range(0, QandA.Count);
+
             //現在の質問がにゅうりょくされる
             Qtxt.text = QandA[currentQuestion].Question;
 
