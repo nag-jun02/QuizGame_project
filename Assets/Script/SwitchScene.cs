@@ -5,10 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class SwitchScene : MonoBehaviour
 {
-	public static string gameScene = "GameScene";
 
-	public static void SceneSwitch()
+	public static void GameSceneSwitch()
 	{
-		SceneManager.LoadScene(gameScene);
+		SceneManager.LoadScene("GameScene");
+	}
+
+	public static void TitleSceneSwitch()
+	{
+		SceneManager.LoadScene("Title");
 	}
 }

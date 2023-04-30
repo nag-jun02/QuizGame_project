@@ -12,9 +12,18 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI Qtxt;
 
+    public GameObject someUp;
+
+
     private void Start()
     {
         GneraleQuestion();
+        SoundManager.instance.Sound(SoundManager.BGM.Game);
+    }
+
+    public void TimeUp()
+    {
+        someUp.SetActive(false);
     }
 
     //éøñ‚ê∂ê¨
