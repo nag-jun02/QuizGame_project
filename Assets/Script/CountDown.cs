@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CountDown : MonoBehaviour
 {
@@ -26,6 +27,13 @@ public class CountDown : MonoBehaviour
         {
             // 0•b‚É‚È‚Á‚½‚Æ‚«‚Ìˆ—(‰¼)
             countdownSeconds = 0.0f;
+            GoToResultScene();
         }
     }
+
+    public void GoToResultScene()
+    {
+        SceneManager.LoadScene("Result");
+    }
+
 }

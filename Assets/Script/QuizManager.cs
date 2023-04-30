@@ -28,14 +28,18 @@ public class QuizManager : MonoBehaviour
     {
         for (int i = 0; i < options.Length; i++)
         {
-            //options[i].GetComponent<AnswerScript>().isCorrect = false;
 
             //テキスト一つ一つに割り当てる。
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = QandA[currentQuestion].Answers[i];
 
+            //True,Falseの割り当て
             if (QandA[currentQuestion].CorrectAnswer == i )
             {
                 options[i].GetComponent<AnswerScript>().isCorrect = true;
+            }
+            else
+            {
+                options[i].GetComponent<AnswerScript>().isCorrect = false;
             }
         }
     }
@@ -45,7 +49,7 @@ public class QuizManager : MonoBehaviour
     {
         if (QandA.Count > 0)
         {
-            //0からリストにある質問の数
+            //質問をランダムで表示
             //currentQuestion = Random.Range(0, QandA.Count);
 
             //現在の質問がにゅうりょくされる

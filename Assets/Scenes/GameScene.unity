@@ -483,7 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1da27a8ac974fcd4d9c67d42ed24c54a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdownMinutes: 2
+  countdownMinutes: 1
   timeUpText: {fileID: 141665118}
 --- !u!1 &235637607
 GameObject:
@@ -1689,7 +1689,7 @@ MonoBehaviour:
     - 9
     - 11
     CorrectAnswer: 1
-  - Question: 13 - ? = 5
+  - Question: 13 + ? = 21
     Answers:
     - 8
     - 3
@@ -1710,6 +1710,13 @@ MonoBehaviour:
     - 2
     - 4
     CorrectAnswer: 3
+  - Question: "? \xD7 8 = 40"
+    Answers:
+    - 6
+    - 5
+    - 4
+    - 8
+    CorrectAnswer: 1
   - Question: "2 \xD7 ? = 12"
     Answers:
     - 5
@@ -1738,6 +1745,20 @@ MonoBehaviour:
     - 3
     - 1
     CorrectAnswer: 0
+  - Question: "3 \xD7 5 - ? = 10 \u3000\u30001\u554F\u76EE"
+    Answers:
+    - 5
+    - 6
+    - 10
+    - 3
+    CorrectAnswer: 0
+  - Question: "? \xF7 (1 + 3) \xD7 3 = 6"
+    Answers:
+    - 6
+    - 7
+    - 3
+    - 8
+    CorrectAnswer: 3
   - Question: "6 + (2 \xD7 3) \xF7 ? = 8"
     Answers:
     - 3
@@ -1759,13 +1780,6 @@ MonoBehaviour:
     - 9
     - 20
     CorrectAnswer: 1
-  - Question: "3 \xD7 5 - ? = 10"
-    Answers:
-    - 5
-    - 6
-    - 10
-    - 3
-    CorrectAnswer: 0
   - Question: "(? - 8) \xD7 3 =  15"
     Answers:
     - 13
