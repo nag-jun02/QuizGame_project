@@ -10,9 +10,11 @@ public class QuizManager : MonoBehaviour
     //質問の数
     public int currentQuestion;
 
-    public TextMeshProUGUI Qtxt;
+    public TextMeshProUGUI Qtxt,scoreTxt;
 
-    public GameObject someUp;
+    public int correctCount = 0;
+    public int wrongCount = 0;
+    public static int totalScore;
 
 
     private void Start()
@@ -21,17 +23,24 @@ public class QuizManager : MonoBehaviour
         SoundManager.instance.Sound(SoundManager.BGM.Game);
     }
 
-    public void TimeUp()
-    {
-        someUp.SetActive(false);
-    }
-
     //質問生成
     public void Correct()
     {
+        correctCount += 10;
         QandA.RemoveAt(currentQuestion);
         GneraleQuestion();
     }
+
+    public void Wrong()
+    {
+        wrongCount += 9;
+        
+        QandA.RemoveAt(currentQuestion);
+        GneraleQuestion();
+    }
+
+
+  
 
     void SetAnswers()
     {
@@ -65,11 +74,19 @@ public class QuizManager : MonoBehaviour
             Qtxt.text = QandA[currentQuestion].Question;
 
             SetAnswers();
+            totalScore = correctCount + wrongCount;
         }
         else
         {
+            
             Debug.Log("Out");
         }
 
+    }
+
+    //スコアの計算結果を返す
+    public static int GetTotalScore()
+    {
+        return totalScore;
     }
 }
