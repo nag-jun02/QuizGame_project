@@ -26,14 +26,14 @@ public class QuizManager : MonoBehaviour
     //éøñ‚ê∂ê¨
     public void Correct()
     {
-        correctCount += 10;
+        correctCount += 100;
         QandA.RemoveAt(currentQuestion);
         GneraleQuestion();
     }
 
     public void Wrong()
     {
-        wrongCount += 9;
+        wrongCount += 80;
         
         QandA.RemoveAt(currentQuestion);
         GneraleQuestion();
