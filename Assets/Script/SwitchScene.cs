@@ -13,6 +13,11 @@ public class SwitchScene : MonoBehaviour
 
 	public static void TitleSceneSwitch()
 	{
-		SceneManager.LoadScene("Title");
+		SceneManager.LoadScene("TitleScene");
+	}
+
+	public static void ExplanationSwitch()
+	{
+		SceneManager.LoadScene("Explanation");
 	}
 }
