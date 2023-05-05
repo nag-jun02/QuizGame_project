@@ -15,9 +15,4 @@ public class SwitchScene : MonoBehaviour
 	{
 		SceneManager.LoadScene("TitleScene");
 	}
-
-	public static void ExplanationSwitch()
-	{
-		SceneManager.LoadScene("Explanation");
-	}
 }
