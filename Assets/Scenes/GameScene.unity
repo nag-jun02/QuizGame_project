@@ -258,6 +258,95 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37433475}
   m_CullTransparentMesh: 1
+--- !u!1 &42163211
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42163214}
+  - component: {fileID: 42163213}
+  m_Layer: 0
+  m_Name: maru
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!212 &42163213
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42163211}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 472b2c0c7ab48d945839cb0e362f0859, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!224 &42163214
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42163211}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7}
+  m_LocalScale: {x: 60, y: 60, z: 60}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2096168674}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 135}
+  m_SizeDelta: {x: 8, y: 8}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!1 &111575773
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +383,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 766.0002}
+  m_AnchoredPosition: {x: 0, y: 747}
   m_SizeDelta: {x: 800, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &111575775
@@ -371,7 +460,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 443, y: 863}
+  m_AnchoredPosition: {x: 443, y: 834}
   m_SizeDelta: {x: 138.97, y: 54.2335}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &141665118
@@ -488,6 +577,95 @@ MonoBehaviour:
   timeUpText: {fileID: 141665118}
   quizPanel: {fileID: 328197226}
   panel: {fileID: 503698508}
+--- !u!1 &153376656
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 153376657}
+  - component: {fileID: 153376658}
+  m_Layer: 0
+  m_Name: batsu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &153376657
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153376656}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7}
+  m_LocalScale: {x: 60, y: 60, z: 60}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 2096168674}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: 135}
+  m_SizeDelta: {x: 8, y: 8}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!212 &153376658
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153376656}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 306ab999a7d1c2e4b8d7003c179efcf7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 8, y: 8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &235637607
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +815,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 1649783961}
+  maru: {fileID: 42163211}
+  batsu: {fileID: 153376656}
 --- !u!1 &328197226
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,6 +1077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 1649783961}
+  maru: {fileID: 42163211}
+  batsu: {fileID: 153376656}
 --- !u!1 &451763541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 1649783961}
+  maru: {fileID: 42163211}
+  batsu: {fileID: 153376656}
 --- !u!1 &938535045
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,6 +2252,7 @@ GameObject:
   - component: {fileID: 1452941528}
   - component: {fileID: 1452941527}
   - component: {fileID: 1452941526}
+  - component: {fileID: 1452941531}
   m_Layer: 0
   m_Name: GoTitle
   m_TagString: Untagged
@@ -2093,7 +2278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -929}
+  m_AnchoredPosition: {x: -280, y: 832}
   m_SizeDelta: {x: 400, y: 296.6505}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1452941526
@@ -2198,7 +2383,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 385a326498dfe7b498301b468c70ba14, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 302cdab992bd4214b9e4595375d23f13, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2216,6 +2401,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452941524}
   m_CullTransparentMesh: 1
+--- !u!114 &1452941531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452941524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1 &1649783959
 GameObject:
   m_ObjectHideFlags: 0
@@ -2296,13 +2496,6 @@ MonoBehaviour:
     - 4
     - 3
     CorrectAnswer: 3
-  - Question: "? \xD7 8 = 40"
-    Answers:
-    - 6
-    - 5
-    - 4
-    - 8
-    CorrectAnswer: 1
   - Question: 8 - 9
     Answers:
     - -1
@@ -2310,13 +2503,20 @@ MonoBehaviour:
     - 6
     - 3
     CorrectAnswer: 0
-  - Question: 23 - 19
+  - Question: "? \xD7 8 = 40"
+    Answers:
+    - 6
+    - 5
+    - 4
+    - 8
+    CorrectAnswer: 1
+  - Question: 15 - 6
     Answers:
     - 9
     - 6
     - 4
     - 3
-    CorrectAnswer: 2
+    CorrectAnswer: 0
   - Question: 14 - ? = 8
     Answers:
     - 9
@@ -2324,13 +2524,13 @@ MonoBehaviour:
     - 8
     - 4
     CorrectAnswer: 1
-  - Question: 18 - 7
+  - Question: 8 + ? - 2 = 9
     Answers:
     - 10
     - 3
     - 7
     - 11
-    CorrectAnswer: 3
+    CorrectAnswer: 1
   - Question: '? - 9 = 7'
     Answers:
     - 14
@@ -2345,12 +2545,12 @@ MonoBehaviour:
     - 2
     - 4
     CorrectAnswer: 3
-  - Question: 53 - 28
+  - Question: 23 - 18
     Answers:
-    - 18
-    - 25
-    - 21
-    - 35
+    - 8
+    - 5
+    - 1
+    - 3
     CorrectAnswer: 1
   - Question: "2 \xD7 ? = 12"
     Answers:
@@ -2401,13 +2601,13 @@ MonoBehaviour:
     - 9
     - 7
     CorrectAnswer: 1
-  - Question: "8 - ? \xD7 2 + 5 = 7"
+  - Question: "? \xD7 2 - 5 = 7"
     Answers:
     - 3
     - 5
-    - 1
+    - 6
     - 7
-    CorrectAnswer: 0
+    CorrectAnswer: 2
   - Question: 10 - 8 + 5
     Answers:
     - 7
@@ -2450,7 +2650,7 @@ MonoBehaviour:
     - 5
     - 8
     CorrectAnswer: 3
-  - Question: "? \xF7 (1 + 3) \xD7 3 = 6"
+  - Question: "? \xF7 4 \xD7 3 = 6"
     Answers:
     - 6
     - 7
@@ -2478,7 +2678,14 @@ MonoBehaviour:
     - 2
     - 1
     CorrectAnswer: 1
-  - Question: "6 + (2 \xD7 3) \xF7 ? = 8"
+  - Question: "6 \xF7 3 + 4"
+    Answers:
+    - 6
+    - 3
+    - 9
+    - 10
+    CorrectAnswer: 0
+  - Question: "6 + 6 \xF7 ? = 8"
     Answers:
     - 3
     - 2
@@ -2492,13 +2699,6 @@ MonoBehaviour:
     - 18
     - 13
     CorrectAnswer: 2
-  - Question: " (? - 4) \xF7 3 + 4 = 7"
-    Answers:
-    - 10
-    - 13
-    - 9
-    - 20
-    CorrectAnswer: 1
   - Question: 6 + 8 + 3 -9
     Answers:
     - 9
@@ -2513,13 +2713,13 @@ MonoBehaviour:
     - 10
     - 8
     CorrectAnswer: 0
-  - Question: "6 - (? \xF7 2) \xD7 2 = 2"
+  - Question: "6 - 2 \xD7 2"
     Answers:
     - 2
     - 5
     - 4
     - 6
-    CorrectAnswer: 2
+    CorrectAnswer: 0
   - Question: 5 + 6 - 5
     Answers:
     - 7
@@ -2541,7 +2741,6 @@ MonoBehaviour:
   - {fileID: 881777136}
   currentQuestion: 0
   Qtxt: {fileID: 451763543}
-  scoreTxt: {fileID: 0}
   correctCount: 0
   wrongCount: 0
 --- !u!1 &1699508226
@@ -2828,6 +3027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCorrect: 0
   quizManager: {fileID: 1649783961}
+  maru: {fileID: 42163211}
+  batsu: {fileID: 153376656}
 --- !u!1 &1929708621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2986,6 +3187,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1439223199}
+  - {fileID: 42163214}
+  - {fileID: 153376657}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
