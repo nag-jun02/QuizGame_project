@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class QuizManager : MonoBehaviour
@@ -19,7 +18,6 @@ public class QuizManager : MonoBehaviour
     public int correctCount = 0;
     public int wrongCount = 0;
     public static int totalScore;
-
 
     private void Start()
     {

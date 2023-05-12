@@ -9,12 +9,6 @@ public class AnswerScript : MonoBehaviour
 
     [SerializeField] GameObject maru, batsu;
 
-
-    //private void Start()
-   // {
-    //    maru.SetActive(false);
-    //    batsu.SetActive(false);
-    //}
     public void Answer()
     {
         if (isCorrect)
