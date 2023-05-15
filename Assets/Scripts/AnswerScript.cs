@@ -14,14 +14,14 @@ public class AnswerScript : MonoBehaviour
         if (isCorrect)
         {
             maru.SetActive(true);
-            //Debug.Log("Yes");
+            
             quizManager.Correct();
             StartCoroutine("SetText");
         }
         else 
         {
             batsu.SetActive(true);
-            //Debug.Log("No");
+            
             quizManager.Wrong();
             StartCoroutine("SetText2");
         }
@@ -30,14 +30,14 @@ public class AnswerScript : MonoBehaviour
     //Correct
     IEnumerator SetText()
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.2f);
         maru.SetActive(false);
     }
 
     //Wrong
     IEnumerator SetText2()
     {
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.2f);
         batsu.SetActive(false);
     }
 }

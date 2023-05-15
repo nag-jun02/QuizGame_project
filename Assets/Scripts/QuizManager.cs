@@ -13,7 +13,7 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI Qtxt;
 
-
+    public QuestionandAnswers qandA;
 
     public int correctCount = 0;
     public int wrongCount = 0;
@@ -37,10 +37,8 @@ public class QuizManager : MonoBehaviour
     public void Wrong()
     {
         wrongCount -= 20;
-        //×パネルの表示
-        //batsuFlug = true;
 
-        //int qWrong = QandA.qrowget(); //CSVファイルの行数を取得
+        //int qWrong = qandA.Question.qrowget(); //CSVファイルの行数を取得
         //PlayerPrefs.SetInt("missrow" + qrow.ToString(), qWrong); //行数をキーにして間違えた行数を格納
         //PlayerPrefs.Save(); //保存
 
