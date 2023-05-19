@@ -19,11 +19,13 @@ public class QuizManager : MonoBehaviour
     public int wrongCount = 0;
     public static int totalScore;
 
+
     private void Start()
     {
         GneraleQuestion();
         SoundManager.instance.Sound(SoundManager.BGM.Game);
     }
+
 
     //éøñ‚ê∂ê¨
     public void Correct()

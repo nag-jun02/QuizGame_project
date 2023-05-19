@@ -2741,6 +2741,10 @@ MonoBehaviour:
   - {fileID: 881777136}
   currentQuestion: 0
   Qtxt: {fileID: 451763543}
+  qandA:
+    Question: 
+    Answers: []
+    CorrectAnswer: 0
   correctCount: 0
   wrongCount: 0
 --- !u!1 &1699508226
