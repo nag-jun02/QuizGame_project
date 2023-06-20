@@ -2629,13 +2629,13 @@ MonoBehaviour:
     - 6
     - 3
     CorrectAnswer: 2
-  - Question: "3 - ? \xD7 (-1) = 7"
+  - Question: "8 - ? \xD7 2 = 4"
     Answers:
     - 4
     - 3
     - 2
     - 1
-    CorrectAnswer: 0
+    CorrectAnswer: 2
   - Question: 16 - 9
     Answers:
     - 5

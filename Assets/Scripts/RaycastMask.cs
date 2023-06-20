@@ -15,11 +15,10 @@ public class RaycastMask : MonoBehaviour
     private void Reset()
     {
         _image = GetComponent<Image>();
-        _image.alphaHitTestMinimumThreshold = _threshold;
+        _threshold = _image.alphaHitTestMinimumThreshold;
     }
     private void OnValidate()
     {
-        _image.alphaHitTestMinimumThreshold = _threshold;
 
         if (_image.sprite == null)
             return;
